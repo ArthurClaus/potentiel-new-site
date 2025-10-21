@@ -55,7 +55,7 @@ const Footer = () => {
                 href="/about"
                 className="block text-sm text-muted-foreground hover:text-primary transition-colors"
               >
-                À propos
+                QUI SUIS-JE ?
               </a>
               <a
                 href="/services"

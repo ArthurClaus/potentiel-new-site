@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const navLinks = [
     { to: "/", label: "Accueil" },
-    { to: "/about", label: "À propos" },
+    { to: "/about", label: "QUI SUIS-JE?" },
     { to: "/services", label: "Services" },
     { to: "/comcolors", label: "Comcolors®" },
     { to: "/contact", label: "Contact" },
