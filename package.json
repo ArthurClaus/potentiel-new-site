@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:polling": "vite --force",
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "build:cloudflare": "VITE_BASE_URL=/ npm run build",
