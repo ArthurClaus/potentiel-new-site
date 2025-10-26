@@ -73,13 +73,46 @@ const Comcolors = () => {
                 stress.
               </p>
               <p>
-                Que ce soit dans un cadre personnel, de couple ou professionnel,
-                Comcolors® offre des clés concrètes pour améliorer les relations et
-                favoriser la coopération.
+                Spécialement adapté aux organisations, Comcolors® offre des clés concrètes 
+                pour améliorer la coopération d'équipe et optimiser les performances collectives.
               </p>
             </div>
           </div>
         </div>
+
+        {/* Origin and Innovation Section */}
+        <Card className="animate-fade-in border-none bg-muted/30 mb-16">
+          <CardContent className="p-8 sm:p-12">
+            <h3 className="text-2xl sm:text-3xl font-bold mb-8 text-center">
+              Origine et innovation du modèle Comcolors®
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h4 className="font-semibold text-lg mb-4">Origine du modèle</h4>
+                <p className="text-muted-foreground mb-4">
+                  Comcolors® a été développé par des experts en psychologie et en management, 
+                  combinant les meilleures approches de la psychologie des couleurs et de 
+                  l'analyse comportementale.
+                </p>
+                <p className="text-muted-foreground">
+                  Le modèle s'appuie sur des recherches approfondies en psychologie cognitive 
+                  et sociale, offrant une approche scientifique rigoureuse tout en restant 
+                  accessible et pratique.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-lg mb-4">Pourquoi c'est innovant ?</h4>
+                <ul className="space-y-2 text-muted-foreground">
+                  <li>• <strong>Approche visuelle :</strong> Utilise les couleurs comme langage universel</li>
+                  <li>• <strong>Simplicité d'usage :</strong> Accessible sans formation préalable</li>
+                  <li>• <strong>Rapidité :</strong> Diagnostic en quelques minutes</li>
+                  <li>• <strong>Efficacité prouvée :</strong> Résultats mesurables en entreprise</li>
+                  <li>• <strong>Reconnaissance internationale :</strong> Certifications et prix remportés</li>
+                </ul>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
 
         {/* Benefits Section */}
         <div className="mb-16">
@@ -109,34 +142,34 @@ const Comcolors = () => {
         <Card className="animate-fade-in border-none bg-muted/30 mb-16">
           <CardContent className="p-8 sm:p-12">
             <h3 className="text-2xl sm:text-3xl font-bold mb-8 text-center">
-              Pour qui et pour quoi ?
+              Applications en entreprise
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div>
-                <h4 className="font-semibold text-lg mb-3">Pour les individus</h4>
+                <h4 className="font-semibold text-lg mb-3">Cohésion d'équipe</h4>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>• Mieux se connaître</li>
-                  <li>• Gagner en confiance</li>
-                  <li>• Améliorer ses relations</li>
-                  <li>• Gérer son stress</li>
+                  <li>• Comprendre les complémentarités</li>
+                  <li>• Valoriser les différences</li>
+                  <li>• Améliorer la collaboration</li>
+                  <li>• Renforcer l'esprit d'équipe</li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold text-lg mb-3">Pour les couples</h4>
+                <h4 className="font-semibold text-lg mb-3">Management et leadership</h4>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>• Comprendre les différences</li>
-                  <li>• Améliorer la communication</li>
-                  <li>• Résoudre les conflits</li>
-                  <li>• Renforcer la complicité</li>
+                  <li>• Adapter son style de management</li>
+                  <li>• Optimiser la communication</li>
+                  <li>• Développer l'intelligence collective</li>
+                  <li>• Prévenir les conflits</li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold text-lg mb-3">Pour les entreprises</h4>
+                <h4 className="font-semibold text-lg mb-3">Performance collective</h4>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>• Cohésion d'équipe</li>
-                  <li>• Management efficace</li>
-                  <li>• Prévention des conflits</li>
-                  <li>• Performance collective</li>
+                  <li>• Optimiser les processus de travail</li>
+                  <li>• Améliorer la productivité</li>
+                  <li>• Stimuler l'innovation</li>
+                  <li>• Favoriser le bien-être au travail</li>
                 </ul>
               </div>
             </div>

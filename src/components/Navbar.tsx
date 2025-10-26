@@ -8,9 +8,8 @@ const Navbar = () => {
 
   const navLinks = [
     { to: "/", label: "Accueil" },
-    { to: "/about", label: "QUI SUIS-JE?" },
-    { to: "/services", label: "Services" },
-    { to: "/comcolors", label: "Comcolors®" },
+    { to: "/about", label: "Qui suis-je" },
+    { to: "/outils", label: "Outils et méthodes" },
     { to: "/contact", label: "Contact" },
   ];
 
